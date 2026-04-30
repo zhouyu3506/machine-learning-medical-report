@@ -2,7 +2,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-THRESHOLD = 0.18
+THRESHOLD = 0.16
 
 MODALITIES = {
     "mri": ["mri", "mr "],
